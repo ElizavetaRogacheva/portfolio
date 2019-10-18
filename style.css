@@ -1,0 +1,169 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;}
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.section-container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.main-header {
+    width: 100%;
+    padding: 0;
+    background: url(img/img-1.jpg) center center / cover no-repeat;
+}
+
+
+.main-header__title {
+    color: #fff;
+    text-transform:  uppercase;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.main-header__text,
+.main-header__info {
+    color: #fff;
+    text-transform:  uppercase;
+    text-align: center;
+}
+
+.main-header__link {
+    display: block;
+    width: 30px;
+    height: 30px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+
+.section-title {
+    text-align: center;
+    margin-bottom: 50px;
+    text-transform: uppercase;
+    margin-top: 50px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.progress__list {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 50px;
+}
+
+.progress__item {
+    width: 400px;
+}
+
+.progress-item__title {
+    font-size: 16px;
+}
+
+section {
+    border-bottom: 1px solid #000;
+}
+
+.tech__list {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+}
+
+.tech__item {
+    width: 140px;
+    padding-top: 100px;
+}
+
+.tech-item__title {
+    text-align: center;
+}
+
+.tech__item:first-child {
+    background: url(img/html5.png) center 0 / 100px 100px no-repeat;  
+}
+
+.tech__item:nth-child(2) {
+    background: url(img/css3.png) center 0 / 80px 100px no-repeat;  
+}
+
+.tech__item:nth-child(3) {
+    background: url(img/javascropt.png) center 0 / 80px 100px no-repeat;  
+}
+
+.tech__item:nth-child(4) {
+    background: url(img/sass.jpg) center 0 / 100px 100px no-repeat;  
+}
+
+.tech__item:nth-child(5) {
+    background: url(img/gulp.png) center 0 / 80px 100px no-repeat;  
+}
+
+.tech__item:nth-child(6) {
+    background: url(img/jquery.png) center 0 / 100px 100px no-repeat;  
+}
+
+.tech__item:nth-child(7) {
+    background: url(img/photoshop.png) center 0 / 100px 100px no-repeat;  
+}
+
+.tech__item:nth-child(8) {
+    background: url(img/avocode.png) center 0 / 100px 100px no-repeat;  
+}
+
+.tech__item:nth-child(9) {
+    background: url(img/fiksirovanyi-dizain.png) center 10px / 100px 80px no-repeat;  
+}
+
+.tech__item:nth-child(10) {
+    background: url(img/git-2.jpg) center 10px / 130px 80px no-repeat;  
+}
+
+.work__list {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 50px;
+}
+
+.work__item {
+    width: 400px;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+.work__item:hover {
+    transform: scale(1.1);
+    transition-duration: 0.5s;
+}
+
+.project__link {
+    display: block;
+}
+
+.work-item__link {
+    color: #000;
+    display: block;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.work-item__img:hover {
+    opacity: 0.5;
+    transition-duration: 0.2s;
+}
+
+.contacts {
+    padding-bottom: 50px;
+}
